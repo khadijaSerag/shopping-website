@@ -500,8 +500,11 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-flow: column;
     flex-flow: column;
-    background: url(../images/bg2.gif), -webkit-gradient(linear, left top, left bottom, from(#856B56), to(#856B56)) no-repeat;
-    background: url(../images/bg2.gif), linear-gradient(#856B56, #856B56) no-repeat;
+   
+    /* background: url(../images/bg2.gif) ; */
+    background-color:linear-gradient(#856B56, #856B56) ;
+    
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -509,7 +512,7 @@ body {
     position: relative;
 }
 
-#review .shape {
+/* #review .shape {
     position: absolute;
     top: 0;
     left: 0;
@@ -518,7 +521,7 @@ body {
     background: url(../images/shape.png) no-repeat;
     background-position: center;
     background-size: 100% 110%;
-}
+} */
 
 #review .owl-nav .owl-next, #review .owl-nav .owl-prev {
     position: absolute;
@@ -618,7 +621,6 @@ body {
 
 #review .box-container .review-slider .box .comment p i {
     color: #4b3b1b;
-    ;
     font-size: 2rem;
     padding: 0rem .5rem;
 }
